@@ -1,0 +1,28 @@
+{
+  "name": "citizen-centre",
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "7.0.1",
+    "chai": "^4.2.0",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^7.1.1",
+    "parcel-bundler": "^1.12.4",
+    "strip-json-comments": "^3.0.1",
+    "tailwindcss": "^1.1.4"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^5.0.2",
+    "bs-fetch": "^0.5.2",
+    "minimist": "^1.2.5",
+    "pnotify": "^5.0.0-alpha.7",
+    "reason-react": ">=0.7.0"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "mocha tests",
+    "re:build": "bsb -make-world -clean-world",
+    "re:watch": "bsb -make-world -clean-world -w"
+  }
+}
