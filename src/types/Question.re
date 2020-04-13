@@ -8,7 +8,7 @@ type t = {
   userAnswer: string,
   nextQues: int,
 };
-let make = (~title, ~description, ~imageUrl=None, ~answers, ~hint, ~mode, ~userAnswer, ~nextQues) => {
+let make = (~title, ~description, ~imageUrl=None, ~answers=[||], ~hint, ~mode, ~userAnswer, ~nextQues) => {
   {title, description, imageUrl, answers, hint, mode, userAnswer, nextQues};
 };
 

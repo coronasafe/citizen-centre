@@ -12,7 +12,7 @@ let make =
     (
       ~option,
       ~title,
-      ~description,
+      ~description=[||],
       ~imageUrl=None,
       ~youtubeUrl=None,
       ~correctAnswer,

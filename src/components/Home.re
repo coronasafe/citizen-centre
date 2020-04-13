@@ -41,7 +41,7 @@ let showQuiz = (path, quiz) => {
   switch (quiz |> Quiz.findOpt(path)) {
   | (Some(quiz)) =>
     switch(quiz.type_){
-      | "form" => <FormComponent quiz/>
+      // | "form" => <FormComponent quiz/>
       | _ => <QuizComponent quiz/>
     }
 

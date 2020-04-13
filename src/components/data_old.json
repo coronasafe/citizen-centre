@@ -1,0 +1,202 @@
+{
+  "$schema": "./dataSchema.json",
+  "quiz": [
+    {
+      "language": "english",
+      "title": "Create New COVID Patient/Suspect",
+      "description": "",
+      "path": "covid_tracker",
+      "buttonText": "Create",
+      "type_": "form",
+      "successMessage": "",
+      "readMore": "/",
+      "questions": [
+        {
+          "title": "Name of the Suspect",
+          "description": "add description for question",
+          "mode": "text",
+          "hint": "",
+          "answers": []
+        },
+        {
+          "title": "Phone Number",
+          "description": "add description for question",
+          "mode": "text",
+          "hint": "",
+          "answers": []
+        },
+        {
+          "title": "Gender",
+          "description": "add description for question",
+          "mode": "select",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Male",
+              "title": "",
+              "description": [],
+              "nextQues":1,
+              "correctAnswer": true
+            },
+            {
+              "option": "Female",
+              "title": "",
+              "description": [],
+              "nextQues":1,
+              "correctAnswer": true
+            },
+            {
+              "option": "Other",
+              "title": "",
+              "description": [],
+              "nextQues":1,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Date Of Birth ",
+          "description": "add description for question",
+          "mode": "date",
+          "hint": "",
+          "answers": []
+        }
+      ]
+    },
+    {
+      "language": "malayalam",
+      "title": "രോഗ സാധ്യതയുണ്ടോ? അങ്ങിനെയുള്ളവരെ പരിചയമുണ്ടോ?",
+      "description": "നിങ്ങൾ 60 വയസ്സിനു മുകളിലോ, രോഗമുള്ളയാളോ (രക്തസമ്മർദ്ദം, പ്രമേഹം, ക്യാൻസർ, ഹൃദ്രോഗം തുടങ്ങിയവ...), അല്ലെങ്കിൽ അവരെ പരിചയമുള്ളവരോ ആണോ? എങ്കിൽ താഴെയുള്ള ബട്ടൺ അമർത്തി രജിസ്റ്റർ ചെയ്യുക",
+      "path": "citizen_ml",
+      "buttonText": "രജിസ്റ്റർ ചെയ്യുക",
+      "successMessage": "",
+      "readMore": "/",
+      "questions": [
+        {
+          "title": "ആരെ പറ്റിയുള്ള വിവരങ്ങള്‍ ആണ് നല്‍കുന്നത് ?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "സ്വയം / Yourself",
+              "title": "",
+              "description": [],
+              "nextQues":1,
+              "correctAnswer": true
+            },
+            {
+              "option": "മറ്റൊരാളെ പറ്റി / Someone elseല",
+              "title": "",
+              "description": [],
+              "nextQues":2,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "റിപ്പോര്‍ട്ട്‌ ചെയുന്ന വ്യക്തിയുടെ പേര്",
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":5,
+          "answers": []
+        },
+        {
+          "title": "നിങ്ങൾ റിപ്പോർട്ടുചെയ്യുന്ന വ്യക്തിയുടെ പേര്",
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":3,
+          "answers": []
+        },
+        {
+          "title": "റിപ്പോര്‍ട്ട്‌ ചെയ്യപ്പെട്ട വ്യക്തിയും നിങ്ങളും തമ്മിലുള്ള ബന്ധം",
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":4,
+          "answers": []
+        },
+        {
+          "title": "ററിപ്പോര്‍ട്ട് ചെയ്യപ്പെട്ട വ്യക്തിയെ ബന്ധപെടാനുള്ള ഫോണ്‍ നമ്പര്‍",
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":5,
+          "answers": []
+        },
+        {
+          "title": "എന്തിനെ കുറിച്ച് ആണ്  റിപ്പോര്‍ട്ട് ചെയ്യാനുള്ളത്",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "രോഗ ലക്ഷണങ്ങള്‍ / Symptoms",
+              "title": "",
+              "description": [],
+              "nextQues":6,
+              "correctAnswer": true
+            },
+            {
+              "option": "60 വയസ്സിനു മുകളിൽ / Over 60 year age",
+              "title": "",
+              "description": [],
+              "nextQues":7,
+              "correctAnswer": true
+            },
+            {
+              "option": "മറ്റ് രോഗങ്ങള്‍ / Co-morbidities",
+              "title": "",
+              "description": [],
+              "nextQues":7,
+              "correctAnswer": true
+            },
+            {
+              "option": "വീട്ടില്‍ സമ്പര്‍ക്ക വിലക്കില്‍ ഇരിക്കുന്ന വ്യക്തിയെ പറ്റി / Quarantined person in the house",
+              "title": "",
+              "description": [],
+              "nextQues":7,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "രോഗ ലക്ഷണങ്ങള്‍",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "പനി / Fever",
+              "title": "",
+              "description": [],
+              "nextQues":7,
+              "correctAnswer": true
+            },
+            {
+              "option": "ജലദോഷം / Cold",
+              "title": "",
+              "description": [],
+              "nextQues":7,
+              "correctAnswer": true
+            },
+            {
+              "option": "മറ്റ് രോഗങ്ങള്‍ / Co-morbidities",
+              "title": "",
+              "description": [],
+              "nextQues":7,
+              "correctAnswer": true
+            },
+            {
+              "option": "വീട്ടില്‍ സമ്പര്‍ക്ക വിലക്കില്‍ ഇരിക്കുന്ന വ്യക്തിയെ പറ്റി / Quarantined person in the house",
+              "title": "",
+              "description": [],
+              "nextQues":7,
+              "correctAnswer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}
