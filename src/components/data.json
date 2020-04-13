@@ -12,6 +12,7 @@
       "questions": [
         {
           "title": "ആരെ പറ്റിയുള്ള വിവരങ്ങള്‍ ആണ് നല്‍കുന്നത് ?",
+          "qno":0,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -33,6 +34,7 @@
         },
         {
           "title": "റിപ്പോര്‍ട്ട്‌ ചെയുന്ന വ്യക്തിയുടെ പേര്",
+          "qno":1,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -41,6 +43,7 @@
         },
         {
           "title": "നിങ്ങൾ റിപ്പോർട്ടുചെയ്യുന്ന വ്യക്തിയുടെ പേര്",
+          "qno":2,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -49,6 +52,7 @@
         },
         {
           "title": "റിപ്പോര്‍ട്ട്‌ ചെയ്യപ്പെട്ട വ്യക്തിയും നിങ്ങളും തമ്മിലുള്ള ബന്ധം",
+          "qno":3,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -57,6 +61,7 @@
         },
         {
           "title": "റിപ്പോര്‍ട്ട് ചെയ്യപ്പെട്ട വ്യക്തിയെ ബന്ധപെടാനുള്ള ഫോണ്‍ നമ്പര്‍",
+          "qno":4,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -65,6 +70,7 @@
         },
         {
           "title": "എന്തിനെ കുറിച്ച് ആണ്  റിപ്പോര്‍ട്ട് ചെയ്യാനുള്ളത്",
+          "qno":5,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -100,6 +106,7 @@
         },
     		{
           "title": "രോഗ ലക്ഷണങ്ങള്‍",
+          "qno":6,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -128,6 +135,7 @@
         },
         {
           "title": "ഏത് ജില്ലയില്‍ ആണ് താമസിക്കുന്നത് ",
+          "qno":7,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -142,6 +150,7 @@
         },
         {
           "title": "തദ്ദേശ സ്വയംഭരണ സ്ഥാപനം",
+          "qno":8,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -163,6 +172,7 @@
         },
         {
           "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
+          "qno":9,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -177,6 +187,7 @@
         },
         {
           "title": "മുനിസിപ്പാലിറ്റി / Municipality",
+          "qno":10,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -191,6 +202,7 @@
         },
         {
           "title": "വാര്‍ഡ്‌ നമ്പര്‍",
+          "qno":11,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -199,6 +211,7 @@
         },
         {
           "title": "വിലാസം ",
+          "qno":12,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -207,6 +220,7 @@
         },
         {
           "title": "പിന്‍കോഡ്",
+          "qno":13,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -215,6 +229,7 @@
         },
         {
           "title": "അടുത്തുള്ള സർക്കാർ ആരോഗ്യ കേന്ദ്രം",
+          "qno":14,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -223,6 +238,7 @@
         },
         {
           "title": "തിരികെ ഏത് മാര്‍ഗത്തിലൂടെ ബന്ധപ്പെടാനാണ് നിങ്ങള്‍ താല്‍പര്യപ്പെടുന്നത്",
+          "qno":15,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -251,23 +267,12 @@
         },
         {
           "title": "ഇമെയിൽ",
+          "qno":16,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":22,
+          "nextQues":-1,
           "answers": []
-        },
-        {
-          "title": "Terms and Conditions",
-          "description": "add description for question",
-          "hint": "",
-          "answers": [
-            {
-              "option": "By submitting this survey, you agree to the Terms and conditions on how your data will be handled",
-              "title": "",
-              "description": [],
-        		}
-          ]
         }
       ]
     },
@@ -275,13 +280,14 @@
       "language": "malayalam",
       "title": "വിദേശയാത്ര ചെയ്തിട്ടുണ്ടോ? അവരുമായി സമ്പർക്കമുണ്ടോ?",
       "description": "താങ്കൾ അടുത്തിടെ വിദേശയാത്ര നടത്തിയ വ്യക്തിയോ അങ്ങനെയുള്ളവരെ അറിയുന്ന ആളോ ആണോ? എങ്കിൽ താഴെയുള്ള ബട്ടൺ അമർത്തി രജിസ്റ്റർ ചെയ്യുക",
-      "path": "citizen_ml",
+      "path": "citizen_foreign_ml",
       "buttonText": "രജിസ്റ്റർ ചെയ്യുക",
       "successMessage": "നന്ദി. Thank You.",
       "readMore": "/",
       "questions": [
         {
           "title": "അന്താരാഷ്ട്ര സഞ്ചാരിയായ ആരുടെ വിവരമാണ് നല്‍കുന്നത്  ?",
+          "qno":0,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -303,6 +309,7 @@
         },
         {
           "title": "റിപ്പോര്‍ട്ട്‌ ചെയുന്ന വ്യക്തിയുടെ പേര്",
+          "qno":1,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -311,6 +318,7 @@
         },
         {
           "title": "വിവരം നല്‍കുന്ന വ്യക്തിയുടെ പേര്",
+          "qno":2,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -319,6 +327,7 @@
         },
         {
           "title": "വിവരം നല്‍കാന്‍ ഉദ്ദേശിക്കുന്ന വ്യക്തിയുടെ പേര് ",
+          "qno":3,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -327,6 +336,7 @@
         },
         {
           "title": "എന്നാണ് ഇന്ത്യയില്‍ എത്തിയത്",
+          "qno":4,
           "description": "add description for question",
           "hint": "",
           "mode": "date",
@@ -335,6 +345,7 @@
         },
         {
           "title": "ഏത് രാജ്യത്ത് നിന്നാണ് എത്തിയത്",
+          "qno":5,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -349,6 +360,7 @@
         },
         {
           "title": "യാത്ര ചെയ്ത വിമാനത്തിന്‍റെ നമ്പര്‍ ",
+          "qno":6,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -357,14 +369,7 @@
         },
         {
           "title": "റിപ്പോര്‍ട്ട്‌ ചെയ്യപ്പെട്ട വ്യക്തിയും നിങ്ങളും തമ്മിലുള്ള ബന്ധം ",
-          "description": "add description for question",
-          "hint": "",
-          "mode": "text",
-          "nextQues":7,
-          "answers": []
-        },
-        {
-          "title": "റിപ്പോര്‍ട്ട് ചെയ്യപ്പെട്ട വ്യക്തിയെ ബന്ധപെടാനുള്ള ഫോണ്‍ നമ്പര്‍",
+          "qno":7,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -372,7 +377,17 @@
           "answers": []
         },
         {
+          "title": "റിപ്പോര്‍ട്ട് ചെയ്യപ്പെട്ട വ്യക്തിയെ ബന്ധപെടാനുള്ള ഫോണ്‍ നമ്പര്‍",
+          "qno":8,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":9,
+          "answers": []
+        },
+        {
           "title": "ഈ വ്യക്തി സമ്പര്‍ക നിയന്ത്രണത്തിലോ/ സമ്പര്‍ക വിലക്കിലോ ആണോ ? ",
+          "qno":9,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -380,39 +395,11 @@
               "option": "ഉണ്ട് / Yes",
               "title": "",
               "description": [],
-              "nextQues":9,
+              "nextQues":10,
               "correctAnswer": true
         		},
             {
               "option": "ഇല്ല / No",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
-        		}
-          ]
-        },
-        {
-          "title": "റിപ്പോർട്ട് ചെയ്യപ്പെടുന്ന വ്യക്തി ",
-          "description": "add description for question",
-          "hint": "",
-          "answers": [
-            {
-              "option": "60 വയസ്സിനു മുകളിൽ",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		},
-            {
-              "option": "ഇതൊന്നുമല്ല",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		},
-            {
-              "option": "മറ്റ് രോഗങ്ങള്‍",
               "title": "",
               "description": [],
               "nextQues":10,
@@ -421,7 +408,37 @@
           ]
         },
         {
+          "title": "റിപ്പോർട്ട് ചെയ്യപ്പെടുന്ന വ്യക്തി ",
+          "qno":10,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "60 വയസ്സിനു മുകളിൽ",
+              "title": "",
+              "description": [],
+              "nextQues":12,
+              "correctAnswer": true
+        		},
+            {
+              "option": "ഇതൊന്നുമല്ല",
+              "title": "",
+              "description": [],
+              "nextQues":12,
+              "correctAnswer": true
+        		},
+            {
+              "option": "മറ്റ് രോഗങ്ങള്‍",
+              "title": "",
+              "description": [],
+              "nextQues":11,
+              "correctAnswer": true
+        		}
+          ]
+        },
+        {
           "title": "മറ്റ് രോഗങ്ങള്‍ ",
+          "qno":11,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -485,6 +502,7 @@
         },
         {
           "title": "ഏത് ജില്ലയില്‍ ആണ് താമസിക്കുന്നത് ",
+          "qno":12,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -499,6 +517,7 @@
         },
         {
           "title": "തദ്ദേശ സ്വയംഭരണ സ്ഥാപനം",
+          "qno":13,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -520,6 +539,7 @@
         },
         {
           "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
+          "qno":14,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -534,6 +554,7 @@
         },
         {
           "title": "മുനിസിപ്പാലിറ്റി / Municipality",
+          "qno":15,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -548,6 +569,7 @@
         },
         {
           "title": "വാര്‍ഡ്‌ നമ്പര്‍",
+          "qno":16,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -555,7 +577,8 @@
           "answers": []
         },
         {
-          "title": "വിലാസം ",
+          "title": "വിലാസം",
+          "qno":17,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -564,6 +587,7 @@
         },
         {
           "title": "പിന്‍കോഡ്",
+          "qno":18,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -572,6 +596,7 @@
         },
         {
           "title": "ജില്ലാ ആരോഗ്യ കേന്ദ്രംദ്രം",
+          "qno":19,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -580,6 +605,7 @@
         },
         {
           "title": "തിരികെ ഏത് മാര്‍ഗത്തിലൂടെ ബന്ധപ്പെടാനാണ് നിങ്ങള്‍ താല്‍പര്യപ്പെടുന്നത്",
+          "qno":20,
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -608,6 +634,7 @@
         },
         {
           "title": "ഇമെയിൽ",
+          "qno":21,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
@@ -632,7 +659,7 @@
       "language": "malayalam",
       "title": "ഇന്ത്യയിൽ എവിടെയെങ്കിലും യാത്ര ചെയ്തിട്ടുണ്ടോ? അവരുമായി സമ്പർക്കമുണ്ടോ?",
       "description": "താങ്കൾ അടുത്തിടെ ഇന്ത്യയിൽ എവിടെയെങ്കിലും യാത്ര നടത്തിയ വ്യക്തിയോ അങ്ങനെയുള്ളവരെ അറിയുന്ന ആളോ ആണോ? എങ്കിൽ താഴെയുള്ള ബട്ടൺ അമർത്തി രജിസ്റ്റർ ചെയ്യുക",
-      "path": "citizen_ml",
+      "path": "citizen_state_ml",
       "buttonText": "രജിസ്റ്റർ ചെയ്യുക",
       "successMessage": "നന്ദി. Thank You.",
       "readMore": "/",
