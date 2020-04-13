@@ -1131,6 +1131,642 @@
           ]
         }
       ]
+    },
+    {
+      "language": "malayalam",
+      "title": "രോഗികളുമായി സമ്പർക്കമുള്ള ജോലിയിൽ വ്യാപൃതരാണോ?",
+      "description": "ദൈനംദിന ജോലിയിൽ രോഗികളുമായോ ഇനി രോഗം ഉണ്ടാവാൻ സാധ്യതയുള്ളവരുമായോ സമ്പർക്കമുണ്ടോ? എങ്കിൽ താഴെയുള്ള ബട്ടണിൽ അമർത്തി രജിസ്റ്റർ ചെയ്യുക",
+      "path": "citizen_ml",
+      "buttonText": "രജിസ്റ്റർ ചെയ്യുക",
+      "successMessage": "നന്ദി. Thank You.",
+      "readMore": "/",
+      "questions": [
+        {
+          "title": "പേര്",
+          "qno":0,
+          "description": "add description for question",
+          "hint": "",
+          "answers": []
+        },
+        {
+          "title": "നിങ്ങളെ എങ്ങനെ ബന്ധപ്പെടാന്‍ കഴിയും?",
+          "qno":1,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "answers": [
+            {
+              "option": "ഫോണ്‍ നമ്പര്‍ / Phone",
+              "title": "",
+              "description": [],
+              "nextQues":3,
+              "correctAnswer": true
+        		},
+            {
+              "option": "ഇമെയില്‍ / Email",
+              "title": "",
+              "description": [],
+              "nextQues":4,
+              "correctAnswer": true
+            },
+            {
+              "option": "WhatsApp",
+              "title": "",
+              "description": [],
+              "nextQues":23,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ഫോണ്‍ നമ്പര്‍ / Phone",
+          "qno":3,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":4,
+          "answers": []
+        },
+        {
+          "title": "ഇമെയില്‍ / Email",
+          "qno":4,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":5,
+          "answers": []
+        },
+        {
+          "title": "വയസ്",
+          "qno":5,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":6,
+          "answers": []
+        },
+        {
+          "title": "ലിംഗഭേദം",
+          "qno":6,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+          {
+              "option": "സ്ത്രീ / Female",
+              "title": "",
+              "description": [],
+              "nextQues":7,
+              "correctAnswer": true
+        		},
+            {
+              "option": "പുരുഷന്‍ / Male",
+              "title": "",
+              "description": [],
+              "nextQues":7,
+              "correctAnswer": true
+            },
+            {
+              "option": "ട്രാന്‍സ് ജെന്‍ഡര്‍ / Transgender",
+              "title": "",
+              "description": [],
+              "nextQues":7,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ജില്ല",
+          "qno":7,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":8,
+          "answers": []
+        },
+        {
+          "title": "തദ്ദേശ സ്വയംഭരണ സ്ഥാപനം",
+          "qno":8,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+          {
+              "option": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
+              "title": "",
+              "description": [],
+              "nextQues":9,
+              "correctAnswer": true
+        		},
+            {
+              "option": "മുനിസിപ്പാലിറ്റി / Municipality",
+              "title": "",
+              "description": [],
+              "nextQues":10,
+              "correctAnswer": true
+            },
+            {
+              "option": "കോർപറേഷൻ / Corporation",
+              "title": "",
+              "description": [],
+              "nextQues":11,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
+          "qno":9,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":10,
+          "answers": []
+        },
+        {
+          "title": "മുനിസിപ്പാലിറ്റി / Municipality",
+          "qno":10,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":11,
+          "answers": []
+        },
+        {
+          "title": "കോർപറേഷൻ / Corporation",
+          "qno":11,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":12,
+          "answers": []
+        },
+        {
+          "title": "വാര്‍ഡ്‌ നമ്പര്‍",
+          "qno":12,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":13,
+          "answers": []
+        },
+        {
+          "title": "വിലാസം",
+          "qno":13,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues":14,
+          "answers": []
+        },
+        {
+          "title": "തൊഴില്‍ മേഖലം",
+          "qno":13,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+          {
+              "option": "ആരോഗ്യം / Health",
+              "title": "",
+              "description": [],
+              "nextQues":16,
+              "correctAnswer": true
+        		},
+            {
+              "option": "പൊലീസ് / Police",
+              "title": "",
+              "description": [],
+              "nextQues":17,
+              "correctAnswer": true
+            },
+            {
+              "option": "ഗതാഗതം / Transportation",
+              "title": "",
+              "description": [],
+              "nextQues":18,
+              "correctAnswer": true
+            },
+            {
+              "option": "വ്യാപാരസ്ഥാപനം / Business",
+              "title": "",
+              "description": [],
+              "nextQues":19,
+              "correctAnswer": true
+        		},
+            {
+              "option": "സെക്യൂരിറ്റി / Security",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "ഐ ടി / IT",
+              "title": "",
+              "description": [],
+              "nextQues":21,
+              "correctAnswer": true
+            },
+            {
+              "option": "ആരാധനാലയങ്ങള്‍ / Worship",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "മറ്റുള്ളവ (ഫയര്‍ ഫോഴ്സ്, ഇലക്ടിസിറ്റി, വെള്ളം, പഞ്ചായത്ത്/നഗരസഭ)",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - ആരോഗ്യം / Health",
+          "qno":16,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ക്ലിനിക്കല്‍ ഡോക്ടര്‍ / Doctor",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+        		},
+            {
+              "option": "സ്റ്റാഫ് നഴ്സ് / Nurse",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "ലാബ്‌ ടെക്നിഷ്യന്‍ / Lab technician",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "ഫാര്‍മസിസ്റ്റ് / Pharmacist",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+        		},
+            {
+              "option": "ഫീല്‍ഡ് പ്രവര്‍ത്തകന്‍ / Field worker",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "ആശ / വളണ്ടിയര്‍ / Volunteer",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "ക്ലീനിംഗ് / ഓഫീസ് / ഇതരപ്രവര്‍ത്തനങ്ങള്‍ / Other",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+            "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - പൊലീസ് / Police",
+          "qno":16,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ഫീല്‍ഡ് ഡ്യൂട്ടി / Field duty",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+        		},
+            {
+              "option": "ഇന്‍ ഹൗസ് ഓഫീസര്‍ /In-house officer",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "ട്രാഫിക് / Traffic",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - ഗതാഗതം / Transportation",
+          "qno":18,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+          {
+              "option": "പ്രൈവറ്റ് ബസ് കണ്ടക്ടര്‍ ഡ്രൈവര്‍ / Pvt Bus driver or conductor",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+        		},
+            {
+              "option": "റെയില്‍വേ ജീവനക്കാര്‍ / Railway",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "ഫ്ലൈറ്റ് ജീവനക്കാര്‍ / Flight crew",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "എയര്‍പോര്‍ട് ജീവനക്കാര്‍ / Airport staff",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+        		},
+            {
+              "option": "ആട്ടോ / ടാക്സി ജീവനക്കാര്‍ / Auto or Taxi",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - വ്യാപാരസ്ഥാപനം / Business",
+          "qno":19,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ഹോട്ടല്‍ ജീവനക്കാര്‍ / Hotel staff",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+        		},
+            {
+              "option": "ഹോം ഡെലിവറി / Home delivery",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "കടയുടമ / Owner",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            },
+            {
+              "option": "സൂപ്പര്‍ മാര്‍ക്കറ്റ് / Supermarket",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+        		}
+          ]
+        },
+        {
+          "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - ഐ ടി / IT",
+          "qno":20,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ഇപ്പോള്‍ വിദേശത്തു നിന്നു തിരിച്ചു വന്നവര്‍",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+        		},
+            {
+              "option": "പാര്‍ക്കുകളില്‍ ജോലി ചെയ്യുന്നവര്‍",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title":"ആരാധനാലയങ്ങള്‍പൂജാരി, ഇമാം, വികാരി മറ്റുള്ളവര്‍ - ആരാധനാലയങ്ങള്‍ / Worship",
+          "qno":20,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "പൂജാരി, ഇമാം, വികാരി",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+        		},
+            {
+              "option": "മറ്റുള്ളവര്‍",
+              "title": "",
+              "description": [],
+              "nextQues":22,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "കൊറോണ രോഗം സ്ഥിരീകരിച്ച രോഗിയുമായി ഏതെങ്കിലും തരത്തില്‍ സമ്പര്‍ക്കം വന്നതായി സംശയമുണ്ടോ?",
+          "qno":10,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ഉണ്ട് / Yesി",
+              "title": "",
+              "description": [],
+              "nextQues":23,
+              "correctAnswer": true
+        		},
+            {
+              "option": "ഇല്ല / No",
+              "title": "",
+              "description": [],
+              "nextQues":26,
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ഉണ്ടെങ്കില്‍, ദിവസംം",
+          "qno":23,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "Date",
+          "nextQues":24,
+          "answers": []
+        },
+        {
+          "title": "ഉണ്ടെങ്കില്‍, സ്ഥലംംം",
+          "qno":24,
+          "description": "add description for question",
+          "hint": "",
+          "mode": "Text",
+          "nextQues":25,
+          "answers": []
+        },
+        {
+          "title": "ഏകദേശം എത്ര സമയം നീണ്ടു നിന്ന സമ്പര്‍ക്കം ",
+          "qno":25,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "10 മിനിട്ടില്‍ താഴെ / <10 min",
+              "title": "",
+              "description": [],
+              "nextQues":26,
+              "correctAnswer": true
+        		},
+            {
+              "option": "10 മിനിട്ട് -- 1 മണിക്കൂര്‍ / 10min-1hr",
+              "title": "",
+              "description": [],
+              "nextQues":26,
+              "correctAnswer": true
+            },
+            {
+              "option": "ഒരു മണിക്കൂറിനു മുകളില്‍ / 1hr+",
+              "title": "",
+              "description": [],
+              "nextQues":26,
+              "correctAnswer": true
+            },
+          ]
+        },
+        {
+          "title": "നിങ്ങള്‍ക്ക് താഴെപ്പറയുന്ന രോഗാവസ്ഥകളില്‍ ഏതെങ്കിലുമുണ്ടോ?",
+          "qno":26,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+          {
+              "option": "പ്രമേഹം / Diabetes",
+              "title": "",
+              "description": [],
+              "nextQues":27,
+              "correctAnswer": true
+        		},
+            {
+              "option": "രക്താതിമര്‍ദം / Hypertension",
+              "title": "",
+              "description": [],
+              "nextQues":27,
+              "correctAnswer": true
+            },
+            {
+              "option": "ഹൃ‌ദ്രോഗം / Heart disease",
+              "title": "",
+              "description": [],
+              "nextQues":27,
+              "correctAnswer": true
+            },
+             {
+              "option": "ശ്വാസകോശരോഗം / Lung disease",
+              "title": "",
+              "description": [],
+              "nextQues":27,
+              "correctAnswer": true
+            },
+            {
+              "option": "60 വയസിനു മുകളില്‍ പ്രായം / above 60 years",
+              "title": "",
+              "description": [],
+              "nextQues":27,
+              "correctAnswer": true
+            },
+            {
+              "option": "അര്‍ബുദത്തിനു ചികിത്സ എടുക്കുന്നവര്‍ / fighting cancer",
+              "title": "",
+              "description": [],
+              "nextQues":27,
+              "correctAnswer": true
+            },
+            {
+              "option": "ലക്ഷണങ്ങളൊന്നുമില്ല / No symptoms",
+              "title": "",
+              "description": [],
+              "nextQues":27,
+              "correctAnswer": true
+            },
+          ]
+        },
+        {
+          "title": "നിങ്ങള്‍ക്ക് താഴെ പറയുന്ന ലക്ഷണങ്ങള്‍ ഉണ്ടോ?",
+          "qno":27,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "പനി / Fever",
+              "title": "",
+              "description": [],
+              "nextQues":-1,
+              "correctAnswer": true
+        		},
+            {
+              "option": "ചുമ / Cough",
+              "title": "",
+              "description": [],
+              "nextQues":-1,
+              "correctAnswer": true
+            },
+            {
+              "option": "തൊണ്ടവേദന / Sore throat",
+              "title": "",
+              "description": [],
+              "nextQues":-1,
+              "correctAnswer": true
+            },
+            {
+              "option": "ശ്വാസകോശരോഗം / Lung disease",
+              "title": "",
+              "description": [],
+              "nextQues":-1,
+              "correctAnswer": true
+            },
+            {
+              "option": "മൂക്കൊലിപ്പ് / Nasal congestion",
+              "title": "",
+              "description": [],
+              "nextQues":-1,
+              "correctAnswer": true
+            },
+            {
+              "option": "ലക്ഷണങ്ങളൊന്നുമില്ല",
+              "title": "",
+              "description": [],
+              "nextQues":-1,
+              "correctAnswer": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "links": []
