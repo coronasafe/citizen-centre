@@ -8,87 +8,64 @@ type page =
 type state = {
   page,
   quizQuestions: array(Question.t),
-  selectedAnswer: option(Answer.t),
+  selectedAnswer: option(AnswerOption.t),
   answerInput: string,
   selectedQuestion: int,
 };
 
-let valueFromEvent = evt: string => evt->ReactEvent.Form.target##value;
+let valueFromEvent = (evt): string => evt->ReactEvent.Form.target##value;
 
 let updateAnswer = (setState, answer, _event) => {
   setState(state => {...state, selectedAnswer: Some(answer)});
 };
 
 let updateInput = (setState, answerInput) => {
-  setState(state => {...state, answerInput: answerInput});
+  setState(state => {...state, answerInput});
 };
 
 let updateUserAnswer = (setState, state) => {
-  let question = state.quizQuestions |> ArrayUtils.getOpt(state.selectedQuestion)
-  switch(question) {
-     | Some(question) => {
-       let newQuestion = switch(state.selectedAnswer){
-         | Some(answer) => question |> Question.updateAnswer(answer |> Answer.option)
-         | None => question |> Question.updateAnswer(state.answerInput)
-       }
-       setState(state => {
-         ...state,
-         quizQuestions: state.quizQuestions |> Question.replace(state.selectedQuestion, newQuestion)
-       })
-     }
-     | _ => print_endline("Unhandled Exception")
-  }
-}
+  let question =
+    state.quizQuestions |> ArrayUtils.getOpt(state.selectedQuestion);
+  switch (question) {
+  | Some(question) =>
+    let newQuestion =
+      switch (state.selectedAnswer) {
+      | Some(answer) =>
+        question
+        |> Question.updateAnswer(
+             answer |> AnswerOption.title |> UserAnswer.makeShortAnswer,
+           )
+      | None =>
+        question
+        |> Question.updateAnswer(
+             state.answerInput |> UserAnswer.makeShortAnswer,
+           )
+      };
+    setState(state =>
+      {
+        ...state,
+        quizQuestions:
+          state.quizQuestions
+          |> Question.replace(state.selectedQuestion, newQuestion),
+      }
+    );
+  | _ => print_endline("Unhandled Exception")
+  };
+};
 
 let showSelectedAnswer = state => {
   switch (state.selectedAnswer) {
   | Some(answer) =>
     <div className="pt-8 md:pt-12">
-      <h2
-        className={
-          "font-bold mb-2 leading-tight "
-          ++ (
-            answer |> Answer.correctAnswer ? "text-green-600" : "text-red-600"
-          )
-        }>
-        {answer |> Answer.title |> str}
+      <h2 className="font-bold mb-2 leading-tight ">
+        {answer |> AnswerOption.title |> str}
       </h2>
-      <div className="pt-1">
-        {answer
-         |> Answer.description
-         |> Array.mapi((index, d) =>
-              <p className="text-lg" key={index |> string_of_int}>
-                {d |> str}
-              </p>
-            )
-         |> React.array}
-      </div>
-      <div className="mt-4">
-        {switch (answer |> Answer.youtubeUrl) {
-         | Some(src) =>
-           <div
-             className="quiz-component__video-wrapper rounded-lg overflow-hidden border-2 border-gray-700 bg-gray-100">
-             <iframe className="w-full" height="auto" src />
-           </div>
-         | None => React.null
-         }}
-      </div>
-      <div className="mt-4">
-        {switch (answer |> Answer.imageUrl) {
-         | Some(src) =>
-           <div className="rounded-lg overflow-hidden">
-             <img className="w-full" src />
-           </div>
-         | None => React.null
-         }}
-      </div>
     </div>
   | None => React.null
   };
 };
 
-let showQuestion =
-    (quiz, question, setState, state, totalQuestions) => {
+let showQuestion = (quiz, question, setState, state, totalQuestions) => {
   <div className="pt-4 pb-6 pl-3 pr-4 md:px-0">
     <div
       className="quiz-component__container border-2 border-gray-800 rounded-lg bg-orange-100 px-6 py-6 md:px-10">
@@ -107,28 +84,27 @@ let showQuestion =
         {question |> Question.title |> str}
       </h1>
       <div>
-        {switch(question |> Question.mode){
-          | "text" =>
-            <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              value={state.answerInput}
-              onChange={evt => valueFromEvent(evt) |> updateInput(setState)}/>
-          | _ =>
-            question
-             |> Question.answers
-             |> Array.map(answer => {
-                  <div key={answer |> Answer.option}>
-                    <button
-                      className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3 w-full"
-                      onClick={updateAnswer(setState, answer)}>
-                      {answer |> Answer.option |> str}
-                    </button>
-                  </div>
-                })
-             |> React.array
-        }
-
-        }
+        {switch (question |> Question.mode) {
+         | "text" =>
+           <input
+             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+             value={state.answerInput}
+             onChange={evt => valueFromEvent(evt) |> updateInput(setState)}
+           />
+         | _ =>
+           question
+           |> Question.answerOptions
+           |> Array.map(answer => {
+                <div key={answer |> AnswerOption.title}>
+                  <button
+                    className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3 w-full"
+                    onClick={updateAnswer(setState, answer)}>
+                    {answer |> AnswerOption.title |> str}
+                  </button>
+                </div>
+              })
+           |> React.array
+         }}
       </div>
     </div>
     <div> {showSelectedAnswer(state)} </div>
@@ -144,7 +120,28 @@ let showSuccess = (quiz, state) => {
       </h2>
       <p>
         {"Your Response:" |> str}
-        {state.quizQuestions |> Array.map(question => <p> {question |> Question.userAnswer |> str} </p>) |> React.array}
+        {state.quizQuestions
+         |> Array.map(question =>
+              <p>
+                {(
+                   switch (question |> Question.userAnswer |> UserAnswer.value) {
+                   | Some(answer) =>
+                     switch (answer) {
+                     | UserAnswer.ShortText(text) => text
+                     | Number(num) => num |> string_of_int
+                     | Date(d) => d |> Js.Date.toDateString
+                     | MultiChoice(choices) =>
+                       choices
+                       |> Array.map(a => a |> AnswerOption.title)
+                       |> Js.Array.joinWith(",")
+                     }
+                   | None => ""
+                   }
+                 )
+                 |> str}
+              </p>
+            )
+         |> React.array}
       </p>
       <a
         href={quiz |> Quiz.readMore}
@@ -172,54 +169,57 @@ let showSuccess = (quiz, state) => {
   </div>;
 };
 
-let showQuiz =
-    (quiz, setState, state) => {
+let showQuiz = (quiz, setState, state) => {
   let totalQuestions = state.quizQuestions |> Array.length;
-  let currentQuestion = state.quizQuestions |> ArrayUtils.getOpt(state.selectedQuestion);
+  let currentQuestion =
+    state.quizQuestions |> ArrayUtils.getOpt(state.selectedQuestion);
   let isLastQuestion = !(state.selectedQuestion < totalQuestions - 1);
 
   <div>
     <div>
       {switch (currentQuestion) {
        | Some(question) =>
-         showQuestion(
-           quiz,
-           question,
-           setState,
-           state,
-           totalQuestions
-         )
+         showQuestion(quiz, question, setState, state, totalQuestions)
        | None => React.null
        }}
     </div>
     <div className="max-w-screen-sm mx-auto">
       <div className="px-3 md:px-0 pb-4">
-        {switch (state.selectedAnswer, state.answerInput!="") {
-         | (_,true)
-         | (Some(_),_)=>
+        {switch (state.selectedAnswer, state.answerInput != "") {
+         | (_, true)
+         | (Some(_), _) =>
            isLastQuestion
              ? <button
                  onClick={_ => {
                    updateUserAnswer(setState, state);
-                   setState(state => {...state, page: Complete})}
-                 }
+                   setState(state => {...state, page: Complete});
+                 }}
                  className="btn border-2 border-green-600 bg-green-500 text-white hover:bg-green-600 hover:text-white focus:text-white focus:bg-green-600 button-xl w-full">
                  {"Complete" |> str}
                </button>
              : <Link
-                 onClick={_ =>{
+                 onClick={_ => {
                    updateUserAnswer(setState, state);
-                   setState(state => {
-                     ...state,
-                     selectedAnswer: None,
-                     answerInput: "",
-                     selectedQuestion: switch(state.selectedAnswer, state.quizQuestions |> ArrayUtils.getOpt(state.selectedQuestion)){
-                                         | (Some(answer), _) =>  answer |> Answer.nextQues
-                                         | (_, Some(question)) => question |> Question.nextQues
-                                         | _ => 0
-                                       }
-                  })}
-                 }
+                   setState(state =>
+                     {
+                       ...state,
+                       selectedAnswer: None,
+                       answerInput: "",
+                       selectedQuestion:
+                         switch (
+                           state.selectedAnswer,
+                           state.quizQuestions
+                           |> ArrayUtils.getOpt(state.selectedQuestion),
+                         ) {
+                         | (Some(answer), _) =>
+                           answer |> AnswerOption.nextQues
+                         | (_, Some(question)) =>
+                           question |> Question.nextQues
+                         | _ => 0
+                         },
+                     }
+                   );
+                 }}
                  className="btn border-2 border-gray-800 bg-orange-100 hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl w-full">
                  {"Next Question" |> str}
                  <span className="ml-2">
@@ -234,7 +234,7 @@ let showQuiz =
                    </svg>
                  </span>
                </Link>
-         | (_,_) => React.null
+         | (_, _) => React.null
          }}
       </div>
     </div>
@@ -244,8 +244,16 @@ let showQuiz =
 [@react.component]
 let make = (~quiz) => {
   let questions = quiz |> Quiz.questions;
-  let (state, setState) = React.useState(() => {selectedAnswer: None, page: Quiz, quizQuestions: questions, selectedQuestion: 0, answerInput: ""});
-
+  let (state, setState) =
+    React.useState(() =>
+      {
+        selectedAnswer: None,
+        page: Quiz,
+        quizQuestions: questions,
+        selectedQuestion: 0,
+        answerInput: "",
+      }
+    );
 
   <div>
     {switch (state.page) {

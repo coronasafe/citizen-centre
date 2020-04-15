@@ -12,266 +12,215 @@
       "questions": [
         {
           "title": "ആരെ പറ്റിയുള്ള വിവരങ്ങള്‍ ആണ് നല്‍കുന്നത് ?",
-          "qno":0,
+          "qno": 0,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "സ്വയം / Yourself",
-              "title": "",
-              "description": [],
-              "nextQues":1,
-              "correctAnswer": true
+              "title": "സ്വയം / Yourself",
+              "nextQues": 1
             },
             {
-              "option": "മറ്റൊരാളെ പറ്റി / Someone elseല",
-              "title": "",
-              "description": [],
-              "nextQues":2,
-              "correctAnswer": true
+              "title": "മറ്റൊരാളെ പറ്റി / Someone else",
+              "nextQues": 2
             }
           ]
         },
         {
           "title": "റിപ്പോര്‍ട്ട്‌ ചെയുന്ന വ്യക്തിയുടെ പേര്",
-          "qno":1,
+          "qno": 1,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":5,
+          "nextQues": 5,
           "answers": []
         },
         {
           "title": "നിങ്ങൾ റിപ്പോർട്ടുചെയ്യുന്ന വ്യക്തിയുടെ പേര്",
-          "qno":2,
+          "qno": 2,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":3,
+          "nextQues": 3,
           "answers": []
         },
         {
           "title": "റിപ്പോര്‍ട്ട്‌ ചെയ്യപ്പെട്ട വ്യക്തിയും നിങ്ങളും തമ്മിലുള്ള ബന്ധം",
-          "qno":3,
+          "qno": 3,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":4,
+          "nextQues": 4,
           "answers": []
         },
         {
           "title": "റിപ്പോര്‍ട്ട് ചെയ്യപ്പെട്ട വ്യക്തിയെ ബന്ധപെടാനുള്ള ഫോണ്‍ നമ്പര്‍",
-          "qno":4,
+          "qno": 4,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":5,
+          "nextQues": 5,
           "answers": []
         },
         {
           "title": "എന്തിനെ കുറിച്ച് ആണ്  റിപ്പോര്‍ട്ട് ചെയ്യാനുള്ളത്",
-          "qno":5,
+          "qno": 5,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "രോഗ ലക്ഷണങ്ങള്‍ / Symptoms",
-              "title": "",
-              "description": [],
-              "nextQues":6,
-              "correctAnswer": true
+              "title": "രോഗ ലക്ഷണങ്ങള്‍ / Symptoms",
+              "nextQues": 6,
             },
             {
-              "option": "60 വയസ്സിനു മുകളിൽ / Over 60 year age",
-              "title": "",
-              "description": [],
-              "nextQues":7,
-              "correctAnswer": true
+              "title": "60 വയസ്സിനു മുകളിൽ / Over 60 year age",
+              "nextQues": 7,
             },
             {
-              "option": "മറ്റ് രോഗങ്ങള്‍ / Co-morbidities",
-              "title": "",
-              "description": [],
-              "nextQues":7,
-              "correctAnswer": true
+              "title": "മറ്റ് രോഗങ്ങള്‍ / Co-morbidities",
+              "nextQues": 7,
             },
             {
-              "option": "വീട്ടില്‍ സമ്പര്‍ക്ക വിലക്കില്‍ ഇരിക്കുന്ന വ്യക്തിയെ പറ്റി / Quarantined person in the house",
-              "title": "",
-              "description": [],
-              "nextQues":7,
-              "correctAnswer": true
+              "title": "വീട്ടില്‍ സമ്പര്‍ക്ക വിലക്കില്‍ ഇരിക്കുന്ന വ്യക്തിയെ പറ്റി / Quarantined person in the house",
+              "nextQues": 7,
             }
           ]
         },
-    		{
+        {
           "title": "രോഗ ലക്ഷണങ്ങള്‍",
-          "qno":6,
+          "qno": 6,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "പനി / Fever",
-              "title": "",
-              "description": [],
-              "nextQues":10,
-              "correctAnswer": true
+              "title": "പനി / Fever",
+              "nextQues": 10,
             },
             {
-              "option": "ജലദോഷം / Cold",
-              "title": "",
-              "description": [],
-              "nextQues":10,
-              "correctAnswer": true
+              "title": "ജലദോഷം / Cold",
+              "nextQues": 10,
             },
             {
-              "option": "മറ്റ് രോഗങ്ങള്‍ / Co-morbidities",
-              "title": "",
-              "description": [],
-              "nextQues":10,
-              "correctAnswer": true
+              "title": "മറ്റ് രോഗങ്ങള്‍ / Co-morbidities",
+              "nextQues": 10,
             }
           ]
         },
         {
           "title": "ഏത് ജില്ലയില്‍ ആണ് താമസിക്കുന്നത് ",
-          "qno":7,
+          "qno": 7,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "District",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
+              "title": "District",
+              "nextQues": 11,
             }
           ]
         },
         {
           "title": "തദ്ദേശ സ്വയംഭരണ സ്ഥാപനം",
-          "qno":8,
+          "qno": 8,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
-              "title": "",
-              "description": [],
-              "nextQues":12,
-              "correctAnswer": true
-        		},
+              "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
+              "nextQues": 12,
+            },
             {
-              "option": "മുനിസിപ്പാലിറ്റി / Municipality",
-              "title": "",
-              "description": [],
-              "nextQues":13,
-              "correctAnswer": true
+              "title": "മുനിസിപ്പാലിറ്റി / Municipality",
+              "nextQues": 13,
             }
           ]
         },
         {
           "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
-          "qno":9,
+          "qno": 9,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "PANCHAYAT",
-              "title": "",
-              "description": [],
-              "nextQues":16,
-              "correctAnswer": true
-        		}
+              "title": "PANCHAYAT",
+              "nextQues": 16,
+            }
           ]
         },
         {
           "title": "മുനിസിപ്പാലിറ്റി / Municipality",
-          "qno":10,
+          "qno": 10,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "Municipality",
-              "title": "",
-              "description": [],
-              "nextQues":16,
-              "correctAnswer": true
-        		}
+              "title": "Municipality",
+              "nextQues": 16,
+            }
           ]
         },
         {
           "title": "വാര്‍ഡ്‌ നമ്പര്‍",
-          "qno":11,
+          "qno": 11,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":17,
+          "nextQues": 17,
           "answers": []
         },
         {
           "title": "വിലാസം ",
-          "qno":12,
+          "qno": 12,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":18,
+          "nextQues": 18,
           "answers": []
         },
         {
           "title": "പിന്‍കോഡ്",
-          "qno":13,
+          "qno": 13,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":19,
+          "nextQues": 19,
           "answers": []
         },
         {
           "title": "അടുത്തുള്ള സർക്കാർ ആരോഗ്യ കേന്ദ്രം",
-          "qno":14,
+          "qno": 14,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":20,
+          "nextQues": 20,
           "answers": []
         },
         {
           "title": "തിരികെ ഏത് മാര്‍ഗത്തിലൂടെ ബന്ധപ്പെടാനാണ് നിങ്ങള്‍ താല്‍പര്യപ്പെടുന്നത്",
-          "qno":15,
+          "qno": 15,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "Email",
-              "title": "",
-              "description": [],
-              "nextQues":21,
-              "correctAnswer": true
-        		},
-            {
-              "option": "Phone",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "Email",
+              "nextQues": 21,
             },
             {
-              "option": "WhatsApp",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "Phone",
+              "nextQues": 22,
+            },
+            {
+              "title": "WhatsApp",
+              "nextQues": 22,
             }
           ]
         },
         {
           "title": "ഇമെയിൽ",
-          "qno":16,
+          "qno": 16,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":-1,
+          "nextQues": -1,
           "answers": []
         }
       ]
@@ -287,358 +236,286 @@
       "questions": [
         {
           "title": "അന്താരാഷ്ട്ര സഞ്ചാരിയായ ആരുടെ വിവരമാണ് നല്‍കുന്നത്  ?",
-          "qno":0,
+          "qno": 0,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "സ്വയം / Yourself",
-              "title": "",
-              "description": [],
-              "nextQues":1,
-              "correctAnswer": true
+              "title": "സ്വയം / Yourself",
+              "nextQues": 1,
             },
             {
-              "option": "മറ്റൊരാളെ പറ്റി / Someone elseല",
-              "title": "",
-              "description": [],
-              "nextQues":2,
-              "correctAnswer": true
+              "title": "മറ്റൊരാളെ പറ്റി / Someone elseല",
+              "nextQues": 2,
             }
           ]
         },
         {
           "title": "റിപ്പോര്‍ട്ട്‌ ചെയുന്ന വ്യക്തിയുടെ പേര്",
-          "qno":1,
+          "qno": 1,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":3,
+          "nextQues": 3,
           "answers": []
         },
         {
           "title": "വിവരം നല്‍കുന്ന വ്യക്തിയുടെ പേര്",
-          "qno":2,
+          "qno": 2,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":3,
+          "nextQues": 3,
           "answers": []
         },
         {
           "title": "വിവരം നല്‍കാന്‍ ഉദ്ദേശിക്കുന്ന വ്യക്തിയുടെ പേര് ",
-          "qno":3,
+          "qno": 3,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":4,
+          "nextQues": 4,
           "answers": []
         },
         {
           "title": "എന്നാണ് ഇന്ത്യയില്‍ എത്തിയത്",
-          "qno":4,
+          "qno": 4,
           "description": "add description for question",
           "hint": "",
           "mode": "date",
-          "nextQues":5,
+          "nextQues": 5,
           "answers": []
         },
         {
           "title": "ഏത് രാജ്യത്ത് നിന്നാണ് എത്തിയത്",
-          "qno":5,
+          "qno": 5,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "country",
-              "title": "",
-              "description": [],
-              "nextQues":6,
-              "correctAnswer": true
-        		}
+              "title": "country",
+              "nextQues": 6,
+            }
           ]
         },
         {
           "title": "യാത്ര ചെയ്ത വിമാനത്തിന്‍റെ നമ്പര്‍ ",
-          "qno":6,
+          "qno": 6,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":7,
+          "nextQues": 7,
           "answers": []
         },
         {
           "title": "റിപ്പോര്‍ട്ട്‌ ചെയ്യപ്പെട്ട വ്യക്തിയും നിങ്ങളും തമ്മിലുള്ള ബന്ധം ",
-          "qno":7,
+          "qno": 7,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":8,
+          "nextQues": 8,
           "answers": []
         },
         {
           "title": "റിപ്പോര്‍ട്ട് ചെയ്യപ്പെട്ട വ്യക്തിയെ ബന്ധപെടാനുള്ള ഫോണ്‍ നമ്പര്‍",
-          "qno":8,
+          "qno": 8,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":9,
+          "nextQues": 9,
           "answers": []
         },
         {
           "title": "ഈ വ്യക്തി സമ്പര്‍ക നിയന്ത്രണത്തിലോ/ സമ്പര്‍ക വിലക്കിലോ ആണോ ? ",
-          "qno":9,
+          "qno": 9,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "ഉണ്ട് / Yes",
-              "title": "",
-              "description": [],
-              "nextQues":10,
-              "correctAnswer": true
-        		},
+              "title": "ഉണ്ട് / Yes",
+              "nextQues": 10,
+            },
             {
-              "option": "ഇല്ല / No",
-              "title": "",
-              "description": [],
-              "nextQues":10,
-              "correctAnswer": true
-        		}
+              "title": "ഇല്ല / No",
+              "nextQues": 10,
+            }
           ]
         },
         {
           "title": "റിപ്പോർട്ട് ചെയ്യപ്പെടുന്ന വ്യക്തി ",
-          "qno":10,
+          "qno": 10,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "60 വയസ്സിനു മുകളിൽ",
-              "title": "",
-              "description": [],
-              "nextQues":12,
-              "correctAnswer": true
-        		},
+              "title": "60 വയസ്സിനു മുകളിൽ",
+              "nextQues": 12,
+            },
             {
-              "option": "ഇതൊന്നുമല്ല",
-              "title": "",
-              "description": [],
-              "nextQues":12,
-              "correctAnswer": true
-        		},
+              "title": "ഇതൊന്നുമല്ല",
+              "nextQues": 12,
+            },
             {
-              "option": "മറ്റ് രോഗങ്ങള്‍",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		}
+              "title": "മറ്റ് രോഗങ്ങള്‍",
+              "nextQues": 11,
+            }
           ]
         },
         {
           "title": "മറ്റ് രോഗങ്ങള്‍ ",
-          "qno":11,
+          "qno": 11,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "പ്രമേഹം",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		},
+              "title": "പ്രമേഹം",
+              "nextQues": 11,
+            },
             {
-              "option": "രക്താദിമര്‍ദ്ദം",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		},
+              "title": "രക്താദിമര്‍ദ്ദം",
+              "nextQues": 11,
+            },
             {
-              "option": "സ്ട്രോക്ക്",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		},
+              "title": "സ്ട്രോക്ക്",
+              "nextQues": 11,
+            },
             {
-              "option": "അര്‍ബുദംക്",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		},
+              "title": "അര്‍ബുദംക്",
+              "nextQues": 11,
+            },
             {
-              "option": "ശ്വാസകോശ രോഗങ്ങള്‍",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		},
+              "title": "ശ്വാസകോശ രോഗങ്ങള്‍",
+              "nextQues": 11,
+            },
             {
-              "option": "വൃക്ക- കരള്‍ രോഗം",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		},
+              "title": "വൃക്ക- കരള്‍ രോഗം",
+              "nextQues": 11,
+            },
             {
-              "option": "കിടപ്പ് രോഗികള്‍",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		},
+              "title": "കിടപ്പ് രോഗികള്‍",
+              "nextQues": 11,
+            },
             {
-              "option": "ഹൃദ്രോഗം",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
-        		}
+              "title": "ഹൃദ്രോഗം",
+              "nextQues": 11,
+            }
           ]
         },
         {
           "title": "ഏത് ജില്ലയില്‍ ആണ് താമസിക്കുന്നത് ",
-          "qno":12,
+          "qno": 12,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "District",
-              "title": "",
-              "description": [],
-              "nextQues":12,
-              "correctAnswer": true
+              "title": "District",
+              "nextQues": 12,
             }
           ]
         },
         {
           "title": "തദ്ദേശ സ്വയംഭരണ സ്ഥാപനം",
-          "qno":13,
+          "qno": 13,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
-              "title": "",
-              "description": [],
-              "nextQues":13,
-              "correctAnswer": true
-        		},
+              "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
+              "nextQues": 13,
+            },
             {
-              "option": "മുനിസിപ്പാലിറ്റി / Municipality",
-              "title": "",
-              "description": [],
-              "nextQues":14,
-              "correctAnswer": true
+              "title": "മുനിസിപ്പാലിറ്റി / Municipality",
+              "nextQues": 14,
             }
           ]
         },
         {
           "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
-          "qno":14,
+          "qno": 14,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "PANCHAYAT",
-              "title": "",
-              "description": [],
-              "nextQues":17,
-              "correctAnswer": true
-        		}
+              "title": "PANCHAYAT",
+              "nextQues": 17,
+            }
           ]
         },
         {
           "title": "മുനിസിപ്പാലിറ്റി / Municipality",
-          "qno":15,
+          "qno": 15,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "Municipality",
-              "title": "",
-              "description": [],
-              "nextQues":17,
-              "correctAnswer": true
-        		}
+              "title": "Municipality",
+              "nextQues": 17,
+            }
           ]
         },
         {
           "title": "വാര്‍ഡ്‌ നമ്പര്‍",
-          "qno":16,
+          "qno": 16,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":18,
+          "nextQues": 18,
           "answers": []
         },
         {
           "title": "വിലാസം",
-          "qno":17,
+          "qno": 17,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":19,
+          "nextQues": 19,
           "answers": []
         },
         {
           "title": "പിന്‍കോഡ്",
-          "qno":18,
+          "qno": 18,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":20,
+          "nextQues": 20,
           "answers": []
         },
         {
           "title": "ജില്ലാ ആരോഗ്യ കേന്ദ്രംദ്രം",
-          "qno":19,
+          "qno": 19,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":21,
+          "nextQues": 21,
           "answers": []
         },
         {
           "title": "തിരികെ ഏത് മാര്‍ഗത്തിലൂടെ ബന്ധപ്പെടാനാണ് നിങ്ങള്‍ താല്‍പര്യപ്പെടുന്നത്",
-          "qno":20,
+          "qno": 20,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "Email",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
-        		},
-            {
-              "option": "Phone",
-              "title": "",
-              "description": [],
-              "nextQues":23,
-              "correctAnswer": true
+              "title": "Email",
+              "nextQues": 22,
             },
             {
-              "option": "WhatsApp",
-              "title": "",
-              "description": [],
-              "nextQues":23,
-              "correctAnswer": true
+              "title": "Phone",
+              "nextQues": 23,
+            },
+            {
+              "title": "WhatsApp",
+              "nextQues": 23,
             }
           ]
         },
         {
           "title": "ഇമെയിൽ",
-          "qno":21,
+          "qno": 21,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":23,
+          "nextQues": 23,
           "answers": []
         },
         {
@@ -647,10 +524,8 @@
           "hint": "",
           "answers": [
             {
-              "option": "By submitting this survey, you agree to the Terms and conditions on how your data will be handled",
-              "title": "",
-              "description": [],
-        		}
+              "title": "By submitting this survey, you agree to the Terms and conditions on how your data will be handled",
+            }
           ]
         }
       ]
@@ -670,18 +545,12 @@
           "hint": "",
           "answers": [
             {
-              "option": "സ്വയം / Yourself",
-              "title": "",
-              "description": [],
-              "nextQues":2,
-              "correctAnswer": true
+              "title": "സ്വയം / Yourself",
+              "nextQues": 2,
             },
             {
-              "option": "മറ്റൊരാളെ പറ്റി / Someone elseല",
-              "title": "",
-              "description": [],
-              "nextQues":23,
-              "correctAnswer": true
+              "title": "മറ്റൊരാളെ പറ്റി / Someone elseല",
+              "nextQues": 23,
             }
           ]
         },
@@ -690,7 +559,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":3,
+          "nextQues": 3,
           "answers": []
         },
         {
@@ -698,7 +567,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "date",
-          "nextQues":4,
+          "nextQues": 4,
           "answers": []
         },
         {
@@ -706,7 +575,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":5,
+          "nextQues": 5,
           "answers": []
         },
         {
@@ -714,79 +583,56 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":6,
+          "nextQues": 6,
           "answers": [
             {
-              "option": "ട്രെയിൻ / Train",
-              "title": "",
-              "description": [],
-              "nextQues":6,
-              "correctAnswer": true
+              "title": "ട്രെയിൻ / Train",
+              "nextQues": 6,
             },
             {
-              "option": "ബസ് / Bus",
-              "title": "",
-              "description": [],
-              "nextQues":6,
-              "correctAnswer": true
+              "title": "ബസ് / Bus",
+              "nextQues": 6,
             },
             {
-              "option": "വിമാനം / Airplane",
-              "title": "",
-              "description": [],
-              "nextQues":6,
-              "correctAnswer": true
+              "title": "വിമാനം / Airplane",
+              "nextQues": 6,
             },
             {
-              "option": "കാര് / Car",
-              "title": "",
-              "description": [],
-              "nextQues":6,
-              "correctAnswer": true
+              "title": "കാര് / Car",
+              "nextQues": 6,
             },
             {
-              "option": "ടാക്സി / Taxi",
-              "title": "",
-              "description": [],
-              "nextQues":6,
-              "correctAnswer": true
+              "title": "ടാക്സി / Taxi",
+              "nextQues": 6,
             },
             {
-              "option": "മറ്റുള്ളവ / Other",
-              "title": "",
-              "description": [],
-              "nextQues":6,
-              "correctAnswer": true
+              "title": "മറ്റുള്ളവ / Other",
+              "nextQues": 6,
             }
           ]
         },
         {
-           "title": "Please specify",
-           "description": "add description for question",
-           "hint": "",
-           "mode": "text",
-           "nextQues":6,
-           "answers": []
+          "title": "Please specify",
+          "description": "add description for question",
+          "hint": "",
+          "mode": "text",
+          "nextQues": 6,
+          "answers": []
         },
         {
           "title": "നിങ്ങള്‍ സമ്പര്‍ക നിയന്ത്രണത്തിലോ/ സമ്പര്‍ക വിലക്കിലോ ആണോ ?",
           "description": "add description for question",
           "hint": "",
           "mode": "date",
-          "nextQues":7,
-          "answers": [{
-              "option": "ഉണ്ട് / Yes",
-              "title": "",
-              "description": [],
-              "nextQues":7,
-              "correctAnswer": true
+          "nextQues": 7,
+          "answers": [
+            {
+              "title": "ഉണ്ട് / Yes",
+              "nextQues": 7,
             },
             {
-              "option": "ഇല്ല / No",
-              "title": "",
-              "description": [],
-              "nextQues":7,
-              "correctAnswer": true
+              "title": "ഇല്ല / No",
+              "nextQues": 7,
             }
           ]
         },
@@ -795,27 +641,19 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":7,
-          "answers": [{
-              "option": "60 വയസ്സിനു മുകളിൽ",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+          "nextQues": 7,
+          "answers": [
+            {
+              "title": "60 വയസ്സിനു മുകളിൽ",
+              "nextQues": 9,
             },
             {
-              "option": "മറ്റ് രോഗങ്ങള്‍",
-              "title": "",
-              "description": [],
-              "nextQues":8,
-              "correctAnswer": true
+              "title": "മറ്റ് രോഗങ്ങള്‍",
+              "nextQues": 8,
             },
             {
-              "option": "ഇതൊന്നുമല്ല",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+              "title": "ഇതൊന്നുമല്ല",
+              "nextQues": 9,
             }
           ]
         },
@@ -824,14 +662,11 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":10,
+          "nextQues": 10,
           "answers": [
-          {
-              "option": "District",
-              "title": "",
-              "description": [],
-              "nextQues":10,
-              "correctAnswer": true
+            {
+              "title": "District",
+              "nextQues": 10,
             }
           ]
         },
@@ -840,21 +675,15 @@
           "description": "add description for question",
           "hint": "",
           "mode": "date",
-          "nextQues":10,
+          "nextQues": 10,
           "answers": [
             {
-              "option": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
+              "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
+              "nextQues": 11,
             },
             {
-              "option": "മുനിസിപ്പാലിറ്റി / Municipality",
-              "title": "",
-              "description": [],
-              "nextQues":12,
-              "correctAnswer": true
+              "title": "മുനിസിപ്പാലിറ്റി / Municipality",
+              "nextQues": 12,
             }
           ]
         },
@@ -862,16 +691,16 @@
           "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
           "description": "add description for question",
           "hint": "",
-          "mode": "Aalakode options",
-          "nextQues":15,
+          "mode": "Aalakode titles",
+          "nextQues": 15,
           "answers": []
         },
         {
           "title": "വാര്‍ഡ്‌ നമ്പര്‍",
           "description": "add description for question",
           "hint": "",
-          "mode": "ward number options",
-          "nextQues":16,
+          "mode": "ward number titles",
+          "nextQues": 16,
           "answers": []
         },
         {
@@ -879,7 +708,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "address",
-          "nextQues":17,
+          "nextQues": 17,
           "answers": []
         },
         {
@@ -887,57 +716,39 @@
           "description": "add description for question",
           "hint": "",
           "mode": "pin code",
-          "nextQues":19,
+          "nextQues": 19,
           "answers": []
         },
         {
           "title": "താഴെ പറയുന്ന രോഗലക്ഷണം നിങ്ങള്‍ക്ക് ഉണ്ടോ? ",
           "description": "add description for question",
           "hint": "",
-          "mode": "option",
-          "nextQues":20,
+          "mode": "title",
+          "nextQues": 20,
           "answers": [
             {
-              "option": "പനി / Fever",
-              "title": "",
-              "description": [],
-              "nextQues":20,
-              "correctAnswer": true
+              "title": "പനി / Fever",
+              "nextQues": 20,
             },
             {
-              "option": "ചുമ / Cough",
-              "title": "",
-              "description": [],
-              "nextQues":20,
-              "correctAnswer": true
+              "title": "ചുമ / Cough",
+              "nextQues": 20,
             },
             {
-              "option": "ശ്വാസ തടസ്സം / Running nose",
-              "title": "",
-              "description": [],
-              "nextQues":1,
-              "correctAnswer": true
+              "title": "ശ്വാസ തടസ്സം / Running nose",
+              "nextQues": 1,
             },
             {
-              "option": "ശ്വാസംമുട്ട് / Shortness of breath",
-              "title": "",
-              "description": [],
-              "nextQues":20,
-              "correctAnswer": true
+              "title": "ശ്വാസംമുട്ട് / Shortness of breath",
+              "nextQues": 20,
             },
             {
-              "option": "തൊണ്ടവേദന / Sore throat",
-              "title": "",
-              "description": [],
-              "nextQues":20,
-              "correctAnswer": true
+              "title": "തൊണ്ടവേദന / Sore throat",
+              "nextQues": 20,
             },
             {
-              "option": "Others",
-              "title": "",
-              "description": [],
-              "nextQues":21,
-              "correctAnswer": true
+              "title": "Others",
+              "nextQues": 21,
             }
           ]
         },
@@ -946,7 +757,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":20,
+          "nextQues": 20,
           "answers": []
         },
         {
@@ -954,28 +765,19 @@
           "description": "add description for question",
           "hint": "",
           "mode": "pin code",
-          "nextQues":21,
+          "nextQues": 21,
           "answers": [
             {
-              "option": "Email",
-              "title": "",
-              "description": [],
-              "nextQues":21,
-              "correctAnswer": true
+              "title": "Email",
+              "nextQues": 21,
             },
             {
-              "option": "Phone",
-              "title": "",
-              "description": [],
-              "nextQues":-1,
-              "correctAnswer": true
+              "title": "Phone",
+              "nextQues": -1,
             },
             {
-              "option": "Whatsapp",
-              "title": "",
-              "description": [],
-              "nextQues":-1,
-              "correctAnswer": true
+              "title": "Whatsapp",
+              "nextQues": -1,
             }
           ]
         },
@@ -984,7 +786,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":22,
+          "nextQues": 22,
           "answers": []
         },
         {
@@ -992,7 +794,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":6,
+          "nextQues": 6,
           "answers": []
         },
         {
@@ -1000,63 +802,39 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":7,
+          "nextQues": 7,
           "answers": [
             {
-              "option": "പ്രമേഹം",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+              "title": "പ്രമേഹം",
+              "nextQues": 9,
             },
             {
-              "option": "രക്താദിമര്‍ദ്ദം",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+              "title": "രക്താദിമര്‍ദ്ദം",
+              "nextQues": 9,
             },
             {
-              "option": "സ്ട്രോക്ക്ല",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+              "title": "സ്ട്രോക്ക്ല",
+              "nextQues": 9,
             },
             {
-              "option": "അര്‍ബുദം",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+              "title": "അര്‍ബുദം",
+              "nextQues": 9,
             },
             {
-              "option": "ശ്വാസകോശ രോഗങ്ങള്‍ക്ല",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+              "title": "ശ്വാസകോശ രോഗങ്ങള്‍ക്ല",
+              "nextQues": 9,
             },
             {
-              "option": "വൃക്ക- കരള്‍ രോഗംക്ല",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+              "title": "വൃക്ക- കരള്‍ രോഗംക്ല",
+              "nextQues": 9,
             },
             {
-              "option": "കിടപ്പ് രോഗികള്‍",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+              "title": "കിടപ്പ് രോഗികള്‍",
+              "nextQues": 9,
             },
             {
-              "option": "ഹൃദ്രോഗം",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+              "title": "ഹൃദ്രോഗം",
+              "nextQues": 9,
             }
           ]
         },
@@ -1065,7 +843,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":3,
+          "nextQues": 3,
           "answers": []
         },
         {
@@ -1073,7 +851,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":4,
+          "nextQues": 4,
           "answers": []
         },
         {
@@ -1081,15 +859,15 @@
           "description": "add description for question",
           "hint": "",
           "mode": "date",
-          "nextQues":25,
+          "nextQues": 25,
           "answers": []
         },
         {
           "title": "ഏത് സംസ്ഥാനത്ത്  നിന്നാണ് എത്തിയത്",
           "description": "add description for question",
           "hint": "",
-          "mode": "State options",
-          "nextQues":26,
+          "mode": "State titles",
+          "nextQues": 26,
           "answers": []
         },
         {
@@ -1097,7 +875,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":27,
+          "nextQues": 27,
           "answers": []
         },
         {
@@ -1105,7 +883,7 @@
           "description": "add description for question",
           "hint": "",
           "mode": "Phone number",
-          "nextQues":6,
+          "nextQues": 6,
           "answers": []
         },
         {
@@ -1113,20 +891,15 @@
           "description": "add description for question",
           "hint": "",
           "mode": "Phone number",
-          "nextQues":27,
-          "answers": [{
-              "option": "ഉണ്ട് / Yes",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+          "nextQues": 27,
+          "answers": [
+            {
+              "title": "ഉണ്ട് / Yes",
+              "nextQues": 9,
             },
             {
-              "option": "ഇല്ല / No",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
+              "title": "ഇല്ല / No",
+              "nextQues": 9,
             }
           ]
         }
@@ -1143,626 +916,452 @@
       "questions": [
         {
           "title": "പേര്",
-          "qno":0,
+          "qno": 0,
           "description": "add description for question",
           "hint": "",
           "answers": []
         },
         {
           "title": "നിങ്ങളെ എങ്ങനെ ബന്ധപ്പെടാന്‍ കഴിയും?",
-          "qno":1,
+          "qno": 1,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
           "answers": [
             {
-              "option": "ഫോണ്‍ നമ്പര്‍ / Phone",
-              "title": "",
-              "description": [],
-              "nextQues":3,
-              "correctAnswer": true
-        		},
-            {
-              "option": "ഇമെയില്‍ / Email",
-              "title": "",
-              "description": [],
-              "nextQues":4,
-              "correctAnswer": true
+              "title": "ഫോണ്‍ നമ്പര്‍ / Phone",
+              "nextQues": 3,
             },
             {
-              "option": "WhatsApp",
-              "title": "",
-              "description": [],
-              "nextQues":23,
-              "correctAnswer": true
+              "title": "ഇമെയില്‍ / Email",
+              "nextQues": 4,
+            },
+            {
+              "title": "WhatsApp",
+              "nextQues": 23,
             }
           ]
         },
         {
           "title": "ഫോണ്‍ നമ്പര്‍ / Phone",
-          "qno":3,
+          "qno": 3,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":4,
+          "nextQues": 4,
           "answers": []
         },
         {
           "title": "ഇമെയില്‍ / Email",
-          "qno":4,
+          "qno": 4,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":5,
+          "nextQues": 5,
           "answers": []
         },
         {
           "title": "വയസ്",
-          "qno":5,
+          "qno": 5,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":6,
+          "nextQues": 6,
           "answers": []
         },
         {
           "title": "ലിംഗഭേദം",
-          "qno":6,
+          "qno": 6,
           "description": "add description for question",
           "hint": "",
           "answers": [
-          {
-              "option": "സ്ത്രീ / Female",
-              "title": "",
-              "description": [],
-              "nextQues":7,
-              "correctAnswer": true
-        		},
             {
-              "option": "പുരുഷന്‍ / Male",
-              "title": "",
-              "description": [],
-              "nextQues":7,
-              "correctAnswer": true
+              "title": "സ്ത്രീ / Female",
+              "nextQues": 7,
             },
             {
-              "option": "ട്രാന്‍സ് ജെന്‍ഡര്‍ / Transgender",
-              "title": "",
-              "description": [],
-              "nextQues":7,
-              "correctAnswer": true
+              "title": "പുരുഷന്‍ / Male",
+              "nextQues": 7,
+            },
+            {
+              "title": "ട്രാന്‍സ് ജെന്‍ഡര്‍ / Transgender",
+              "nextQues": 7,
             }
           ]
         },
         {
           "title": "ജില്ല",
-          "qno":7,
+          "qno": 7,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":8,
+          "nextQues": 8,
           "answers": []
         },
         {
           "title": "തദ്ദേശ സ്വയംഭരണ സ്ഥാപനം",
-          "qno":8,
+          "qno": 8,
           "description": "add description for question",
           "hint": "",
           "answers": [
-          {
-              "option": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
-              "title": "",
-              "description": [],
-              "nextQues":9,
-              "correctAnswer": true
-        		},
             {
-              "option": "മുനിസിപ്പാലിറ്റി / Municipality",
-              "title": "",
-              "description": [],
-              "nextQues":10,
-              "correctAnswer": true
+              "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
+              "nextQues": 9,
             },
             {
-              "option": "കോർപറേഷൻ / Corporation",
-              "title": "",
-              "description": [],
-              "nextQues":11,
-              "correctAnswer": true
+              "title": "മുനിസിപ്പാലിറ്റി / Municipality",
+              "nextQues": 10,
+            },
+            {
+              "title": "കോർപറേഷൻ / Corporation",
+              "nextQues": 11,
             }
           ]
         },
         {
           "title": "ഗ്രാമപഞ്ചായത്ത് / Panchayat",
-          "qno":9,
+          "qno": 9,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":10,
+          "nextQues": 10,
           "answers": []
         },
         {
           "title": "മുനിസിപ്പാലിറ്റി / Municipality",
-          "qno":10,
+          "qno": 10,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":11,
+          "nextQues": 11,
           "answers": []
         },
         {
           "title": "കോർപറേഷൻ / Corporation",
-          "qno":11,
+          "qno": 11,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":12,
+          "nextQues": 12,
           "answers": []
         },
         {
           "title": "വാര്‍ഡ്‌ നമ്പര്‍",
-          "qno":12,
+          "qno": 12,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":13,
+          "nextQues": 13,
           "answers": []
         },
         {
           "title": "വിലാസം",
-          "qno":13,
+          "qno": 13,
           "description": "add description for question",
           "hint": "",
           "mode": "text",
-          "nextQues":14,
+          "nextQues": 14,
           "answers": []
         },
         {
           "title": "തൊഴില്‍ മേഖലം",
-          "qno":13,
+          "qno": 13,
           "description": "add description for question",
           "hint": "",
           "answers": [
-          {
-              "option": "ആരോഗ്യം / Health",
-              "title": "",
-              "description": [],
-              "nextQues":16,
-              "correctAnswer": true
-        		},
             {
-              "option": "പൊലീസ് / Police",
-              "title": "",
-              "description": [],
-              "nextQues":17,
-              "correctAnswer": true
+              "title": "ആരോഗ്യം / Health",
+              "nextQues": 16,
             },
             {
-              "option": "ഗതാഗതം / Transportation",
-              "title": "",
-              "description": [],
-              "nextQues":18,
-              "correctAnswer": true
+              "title": "പൊലീസ് / Police",
+              "nextQues": 17,
             },
             {
-              "option": "വ്യാപാരസ്ഥാപനം / Business",
-              "title": "",
-              "description": [],
-              "nextQues":19,
-              "correctAnswer": true
-        		},
-            {
-              "option": "സെക്യൂരിറ്റി / Security",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "ഗതാഗതം / Transportation",
+              "nextQues": 18,
             },
             {
-              "option": "ഐ ടി / IT",
-              "title": "",
-              "description": [],
-              "nextQues":21,
-              "correctAnswer": true
+              "title": "വ്യാപാരസ്ഥാപനം / Business",
+              "nextQues": 19,
             },
             {
-              "option": "ആരാധനാലയങ്ങള്‍ / Worship",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "സെക്യൂരിറ്റി / Security",
+              "nextQues": 22,
             },
             {
-              "option": "മറ്റുള്ളവ (ഫയര്‍ ഫോഴ്സ്, ഇലക്ടിസിറ്റി, വെള്ളം, പഞ്ചായത്ത്/നഗരസഭ)",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "ഐ ടി / IT",
+              "nextQues": 21,
+            },
+            {
+              "title": "ആരാധനാലയങ്ങള്‍ / Worship",
+              "nextQues": 22,
+            },
+            {
+              "title": "മറ്റുള്ളവ (ഫയര്‍ ഫോഴ്സ്, ഇലക്ടിസിറ്റി, വെള്ളം, പഞ്ചായത്ത്/നഗരസഭ)",
+              "nextQues": 22,
             }
           ]
         },
         {
           "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - ആരോഗ്യം / Health",
-          "qno":16,
+          "qno": 16,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "ക്ലിനിക്കല്‍ ഡോക്ടര്‍ / Doctor",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
-        		},
-            {
-              "option": "സ്റ്റാഫ് നഴ്സ് / Nurse",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "ക്ലിനിക്കല്‍ ഡോക്ടര്‍ / Doctor",
+              "nextQues": 22,
             },
             {
-              "option": "ലാബ്‌ ടെക്നിഷ്യന്‍ / Lab technician",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "സ്റ്റാഫ് നഴ്സ് / Nurse",
+              "nextQues": 22,
             },
             {
-              "option": "ഫാര്‍മസിസ്റ്റ് / Pharmacist",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
-        		},
-            {
-              "option": "ഫീല്‍ഡ് പ്രവര്‍ത്തകന്‍ / Field worker",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "ലാബ്‌ ടെക്നിഷ്യന്‍ / Lab technician",
+              "nextQues": 22,
             },
             {
-              "option": "ആശ / വളണ്ടിയര്‍ / Volunteer",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "ഫാര്‍മസിസ്റ്റ് / Pharmacist",
+              "nextQues": 22,
             },
             {
-              "option": "ക്ലീനിംഗ് / ഓഫീസ് / ഇതരപ്രവര്‍ത്തനങ്ങള്‍ / Other",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "ഫീല്‍ഡ് പ്രവര്‍ത്തകന്‍ / Field worker",
+              "nextQues": 22,
+            },
+            {
+              "title": "ആശ / വളണ്ടിയര്‍ / Volunteer",
+              "nextQues": 22,
+            },
+            {
+              "title": "ക്ലീനിംഗ് / ഓഫീസ് / ഇതരപ്രവര്‍ത്തനങ്ങള്‍ / Other",
+              "nextQues": 22,
             }
           ]
         },
         {
-            "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - പൊലീസ് / Police",
-          "qno":16,
+          "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - പൊലീസ് / Police",
+          "qno": 16,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "ഫീല്‍ഡ് ഡ്യൂട്ടി / Field duty",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
-        		},
-            {
-              "option": "ഇന്‍ ഹൗസ് ഓഫീസര്‍ /In-house officer",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "ഫീല്‍ഡ് ഡ്യൂട്ടി / Field duty",
+              "nextQues": 22,
             },
             {
-              "option": "ട്രാഫിക് / Traffic",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "ഇന്‍ ഹൗസ് ഓഫീസര്‍ /In-house officer",
+              "nextQues": 22,
+            },
+            {
+              "title": "ട്രാഫിക് / Traffic",
+              "nextQues": 22,
             }
           ]
         },
         {
           "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - ഗതാഗതം / Transportation",
-          "qno":18,
+          "qno": 18,
           "description": "add description for question",
           "hint": "",
           "answers": [
-          {
-              "option": "പ്രൈവറ്റ് ബസ് കണ്ടക്ടര്‍ ഡ്രൈവര്‍ / Pvt Bus driver or conductor",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
-        		},
             {
-              "option": "റെയില്‍വേ ജീവനക്കാര്‍ / Railway",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "പ്രൈവറ്റ് ബസ് കണ്ടക്ടര്‍ ഡ്രൈവര്‍ / Pvt Bus driver or conductor",
+              "nextQues": 22,
             },
             {
-              "option": "ഫ്ലൈറ്റ് ജീവനക്കാര്‍ / Flight crew",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "റെയില്‍വേ ജീവനക്കാര്‍ / Railway",
+              "nextQues": 22,
             },
             {
-              "option": "എയര്‍പോര്‍ട് ജീവനക്കാര്‍ / Airport staff",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
-        		},
+              "title": "ഫ്ലൈറ്റ് ജീവനക്കാര്‍ / Flight crew",
+              "nextQues": 22,
+            },
             {
-              "option": "ആട്ടോ / ടാക്സി ജീവനക്കാര്‍ / Auto or Taxi",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "എയര്‍പോര്‍ട് ജീവനക്കാര്‍ / Airport staff",
+              "nextQues": 22,
+            },
+            {
+              "title": "ആട്ടോ / ടാക്സി ജീവനക്കാര്‍ / Auto or Taxi",
+              "nextQues": 22,
             }
           ]
         },
         {
           "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - വ്യാപാരസ്ഥാപനം / Business",
-          "qno":19,
+          "qno": 19,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "ഹോട്ടല്‍ ജീവനക്കാര്‍ / Hotel staff",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
-        		},
-            {
-              "option": "ഹോം ഡെലിവറി / Home delivery",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "ഹോട്ടല്‍ ജീവനക്കാര്‍ / Hotel staff",
+              "nextQues": 22,
             },
             {
-              "option": "കടയുടമ / Owner",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "ഹോം ഡെലിവറി / Home delivery",
+              "nextQues": 22,
             },
             {
-              "option": "സൂപ്പര്‍ മാര്‍ക്കറ്റ് / Supermarket",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
-        		}
-          ]
-        },
-        {
-          "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - ഐ ടി / IT",
-          "qno":20,
-          "description": "add description for question",
-          "hint": "",
-          "answers": [
+              "title": "കടയുടമ / Owner",
+              "nextQues": 22,
+            },
             {
-              "option": "ഇപ്പോള്‍ വിദേശത്തു നിന്നു തിരിച്ചു വന്നവര്‍",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
-        		},
-            {
-              "option": "പാര്‍ക്കുകളില്‍ ജോലി ചെയ്യുന്നവര്‍",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "സൂപ്പര്‍ മാര്‍ക്കറ്റ് / Supermarket",
+              "nextQues": 22,
             }
           ]
         },
         {
-          "title":"ആരാധനാലയങ്ങള്‍പൂജാരി, ഇമാം, വികാരി മറ്റുള്ളവര്‍ - ആരാധനാലയങ്ങള്‍ / Worship",
-          "qno":20,
+          "title": "ഓരോ മേഖലയിലും ഏതു തരം പ്രവര്‍ത്തനം എന്നു വ്യക്തമാക്കുക - ഐ ടി / IT",
+          "qno": 20,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "പൂജാരി, ഇമാം, വികാരി",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
-        		},
+              "title": "ഇപ്പോള്‍ വിദേശത്തു നിന്നു തിരിച്ചു വന്നവര്‍",
+              "nextQues": 22,
+            },
             {
-              "option": "മറ്റുള്ളവര്‍",
-              "title": "",
-              "description": [],
-              "nextQues":22,
-              "correctAnswer": true
+              "title": "പാര്‍ക്കുകളില്‍ ജോലി ചെയ്യുന്നവര്‍",
+              "nextQues": 22,
+            }
+          ]
+        },
+        {
+          "title": "ആരാധനാലയങ്ങള്‍പൂജാരി, ഇമാം, വികാരി മറ്റുള്ളവര്‍ - ആരാധനാലയങ്ങള്‍ / Worship",
+          "qno": 20,
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "title": "പൂജാരി, ഇമാം, വികാരി",
+              "nextQues": 22,
+            },
+            {
+              "title": "മറ്റുള്ളവര്‍",
+              "nextQues": 22,
             }
           ]
         },
         {
           "title": "കൊറോണ രോഗം സ്ഥിരീകരിച്ച രോഗിയുമായി ഏതെങ്കിലും തരത്തില്‍ സമ്പര്‍ക്കം വന്നതായി സംശയമുണ്ടോ?",
-          "qno":10,
+          "qno": 10,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "ഉണ്ട് / Yesി",
-              "title": "",
-              "description": [],
-              "nextQues":23,
-              "correctAnswer": true
-        		},
+              "title": "ഉണ്ട് / Yesി",
+              "nextQues": 23,
+            },
             {
-              "option": "ഇല്ല / No",
-              "title": "",
-              "description": [],
-              "nextQues":26,
-              "correctAnswer": true
+              "title": "ഇല്ല / No",
+              "nextQues": 26,
             }
           ]
         },
         {
           "title": "ഉണ്ടെങ്കില്‍, ദിവസംം",
-          "qno":23,
+          "qno": 23,
           "description": "add description for question",
           "hint": "",
           "mode": "Date",
-          "nextQues":24,
+          "nextQues": 24,
           "answers": []
         },
         {
           "title": "ഉണ്ടെങ്കില്‍, സ്ഥലംംം",
-          "qno":24,
+          "qno": 24,
           "description": "add description for question",
           "hint": "",
           "mode": "Text",
-          "nextQues":25,
+          "nextQues": 25,
           "answers": []
         },
         {
           "title": "ഏകദേശം എത്ര സമയം നീണ്ടു നിന്ന സമ്പര്‍ക്കം ",
-          "qno":25,
+          "qno": 25,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "10 മിനിട്ടില്‍ താഴെ / <10 min",
-              "title": "",
-              "description": [],
-              "nextQues":26,
-              "correctAnswer": true
-        		},
-            {
-              "option": "10 മിനിട്ട് -- 1 മണിക്കൂര്‍ / 10min-1hr",
-              "title": "",
-              "description": [],
-              "nextQues":26,
-              "correctAnswer": true
+              "title": "10 മിനിട്ടില്‍ താഴെ / <10 min",
+              "nextQues": 26,
             },
             {
-              "option": "ഒരു മണിക്കൂറിനു മുകളില്‍ / 1hr+",
-              "title": "",
-              "description": [],
-              "nextQues":26,
-              "correctAnswer": true
+              "title": "10 മിനിട്ട് -- 1 മണിക്കൂര്‍ / 10min-1hr",
+              "nextQues": 26,
+            },
+            {
+              "title": "ഒരു മണിക്കൂറിനു മുകളില്‍ / 1hr+",
+              "nextQues": 26,
             },
           ]
         },
         {
           "title": "നിങ്ങള്‍ക്ക് താഴെപ്പറയുന്ന രോഗാവസ്ഥകളില്‍ ഏതെങ്കിലുമുണ്ടോ?",
-          "qno":26,
+          "qno": 26,
           "description": "add description for question",
           "hint": "",
           "answers": [
-          {
-              "option": "പ്രമേഹം / Diabetes",
-              "title": "",
-              "description": [],
-              "nextQues":27,
-              "correctAnswer": true
-        		},
             {
-              "option": "രക്താതിമര്‍ദം / Hypertension",
-              "title": "",
-              "description": [],
-              "nextQues":27,
-              "correctAnswer": true
+              "title": "പ്രമേഹം / Diabetes",
+              "nextQues": 27,
             },
             {
-              "option": "ഹൃ‌ദ്രോഗം / Heart disease",
-              "title": "",
-              "description": [],
-              "nextQues":27,
-              "correctAnswer": true
-            },
-             {
-              "option": "ശ്വാസകോശരോഗം / Lung disease",
-              "title": "",
-              "description": [],
-              "nextQues":27,
-              "correctAnswer": true
+              "title": "രക്താതിമര്‍ദം / Hypertension",
+              "nextQues": 27,
             },
             {
-              "option": "60 വയസിനു മുകളില്‍ പ്രായം / above 60 years",
-              "title": "",
-              "description": [],
-              "nextQues":27,
-              "correctAnswer": true
+              "title": "ഹൃ‌ദ്രോഗം / Heart disease",
+              "nextQues": 27,
             },
             {
-              "option": "അര്‍ബുദത്തിനു ചികിത്സ എടുക്കുന്നവര്‍ / fighting cancer",
-              "title": "",
-              "description": [],
-              "nextQues":27,
-              "correctAnswer": true
+              "title": "ശ്വാസകോശരോഗം / Lung disease",
+              "nextQues": 27,
             },
             {
-              "option": "ലക്ഷണങ്ങളൊന്നുമില്ല / No symptoms",
-              "title": "",
-              "description": [],
-              "nextQues":27,
-              "correctAnswer": true
+              "title": "60 വയസിനു മുകളില്‍ പ്രായം / above 60 years",
+              "nextQues": 27,
+            },
+            {
+              "title": "അര്‍ബുദത്തിനു ചികിത്സ എടുക്കുന്നവര്‍ / fighting cancer",
+              "nextQues": 27,
+            },
+            {
+              "title": "ലക്ഷണങ്ങളൊന്നുമില്ല / No symptoms",
+              "nextQues": 27,
             },
           ]
         },
         {
           "title": "നിങ്ങള്‍ക്ക് താഴെ പറയുന്ന ലക്ഷണങ്ങള്‍ ഉണ്ടോ?",
-          "qno":27,
+          "qno": 27,
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "പനി / Fever",
-              "title": "",
-              "description": [],
-              "nextQues":-1,
-              "correctAnswer": true
-        		},
-            {
-              "option": "ചുമ / Cough",
-              "title": "",
-              "description": [],
-              "nextQues":-1,
-              "correctAnswer": true
+              "title": "പനി / Fever",
+              "nextQues": -1,
             },
             {
-              "option": "തൊണ്ടവേദന / Sore throat",
-              "title": "",
-              "description": [],
-              "nextQues":-1,
-              "correctAnswer": true
+              "title": "ചുമ / Cough",
+              "nextQues": -1,
             },
             {
-              "option": "ശ്വാസകോശരോഗം / Lung disease",
-              "title": "",
-              "description": [],
-              "nextQues":-1,
-              "correctAnswer": true
+              "title": "തൊണ്ടവേദന / Sore throat",
+              "nextQues": -1,
             },
             {
-              "option": "മൂക്കൊലിപ്പ് / Nasal congestion",
-              "title": "",
-              "description": [],
-              "nextQues":-1,
-              "correctAnswer": true
+              "title": "ശ്വാസകോശരോഗം / Lung disease",
+              "nextQues": -1,
             },
             {
-              "option": "ലക്ഷണങ്ങളൊന്നുമില്ല",
-              "title": "",
-              "description": [],
-              "nextQues":-1,
-              "correctAnswer": true
+              "title": "മൂക്കൊലിപ്പ് / Nasal congestion",
+              "nextQues": -1,
+            },
+            {
+              "title": "ലക്ഷണങ്ങളൊന്നുമില്ല",
+              "nextQues": -1,
             }
           ]
         }
