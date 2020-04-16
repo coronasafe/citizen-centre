@@ -4,8 +4,10 @@ type t = {
 };
 
 let make = (~title, ~nextQues) => {
-  title;
-  nextQues;
+  {
+    title,
+    nextQues
+  };
 };
 
 let title = t => t.title;
