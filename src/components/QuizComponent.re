@@ -23,6 +23,13 @@ let updateInput = (setState, answerInput) => {
   setState(state => {...state, answerInput});
 };
 
+let updateDateInput = (setState, dateInput) => {
+  switch(dateInput){
+    | Some(date) => updateInput(setState, date |> Js.Date.toISOString)
+    | _ => updateInput(setState, "")
+  }
+};
+
 let updateUserAnswer = (setState, state) => {
   let question =
     state.quizQuestions |> ArrayUtils.getOpt(state.selectedQuestion);
