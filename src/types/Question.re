@@ -5,8 +5,8 @@ type t = {
   hint: option(string),
   imageUrl: option(string),
   mode: string,
-  userAnswer: UserAnswer.t,
   nextQues: int,
+  userAnswer: UserAnswer.t,
 };
 let make =
     (
@@ -16,8 +16,8 @@ let make =
       ~answerOptions=[||],
       ~hint,
       ~mode,
-      ~userAnswer,
       ~nextQues,
+      ~userAnswer,
     ) => {
   {
     title,
@@ -26,8 +26,8 @@ let make =
     answerOptions,
     hint,
     mode,
-    userAnswer,
     nextQues,
+    userAnswer,
   };
 };
 
@@ -50,11 +50,22 @@ let makeArray = questions => {
          ~answerOptions=a##answers |> AnswerOption.makeArray,
          ~hint=a##hint,
          ~mode=a##mode,
-         ~userAnswer=UserAnswer.makeDefault(),
          ~nextQues=a##nextQues,
+         ~userAnswer=UserAnswer.makeDefault(),
        )
      );
 };
+
+let makeError = () => {
+    title: "There seems to be some problem",
+    description: "",
+    imageUrl: None,
+    answerOptions: [||],
+    hint: None,
+    mode: "error",
+    nextQues: -1,
+    userAnswer: UserAnswer.makeDefault(),
+  };
 
 let updateAnswer = (userAnswer, t) => {...t, userAnswer};
 

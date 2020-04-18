@@ -11,12 +11,17 @@ type state = {
   selectedAnswer: option(AnswerOption.t),
   answerInput: string,
   selectedQuestion: int,
+  userAnswer : UserAnswer.t
 };
 
 let valueFromEvent = (evt): string => evt->ReactEvent.Form.target##value;
 
 let updateAnswer = (setState, answer, _event) => {
   setState(state => {...state, selectedAnswer: Some(answer)});
+};
+
+let updateStateAnswer = (setState, userAnswer) => {
+  setState(state => {...state, userAnswer: userAnswer});
 };
 
 let updateInput = (setState, answerInput) => {
@@ -95,9 +100,20 @@ let showQuestion = (quiz, question, setState, state, totalQuestions) => {
          | "text" =>
            <input
              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-             value={state.answerInput}
-             onChange={evt => valueFromEvent(evt) |> updateInput(setState)}
+             value=?{switch(state.userAnswer |> UserAnswer.value) { | Some(answer) => switch(answer) { | ShortText(text) => Some(text) | _ => None } | _ => None }}
+             onChange={evt => UserAnswer.makeShortAnswer(valueFromEvent(evt)) |> updateStateAnswer(setState)}
            />
+         | "date" =>
+           <DatePicker
+             selected=?{switch(state.userAnswer |> UserAnswer.value) { | Some(answer) => switch(answer) { | Date(date) => Some(date) | _ => None } | _ => None }}
+             onChange={date =>{
+                 switch(date) {
+                   | Some(date) => UserAnswer.makeDateAnswer(date) |> updateStateAnswer(setState)
+                   | None => UserAnswer.makeDefault() |> updateStateAnswer(setState)
+                 };
+               }
+             }
+            />
          | _ =>
            question
            |> Question.answerOptions
@@ -192,7 +208,7 @@ let showQuiz = (quiz, setState, state) => {
     </div>
     <div className="max-w-screen-sm mx-auto">
       <div className="px-3 md:px-0 pb-4">
-        {switch (state.selectedAnswer, state.answerInput != "") {
+        {switch (state.userAnswer |> UserAnswer.value, state.answerInput != "") {
          | (_, true)
          | (Some(_), _) =>
            isLastQuestion
@@ -259,9 +275,9 @@ let make = (~quiz) => {
         quizQuestions: questions,
         selectedQuestion: 0,
         answerInput: "",
+        userAnswer: UserAnswer.makeDefault()
       }
     );
-
   <div>
     {switch (state.page) {
      | Quiz => showQuiz(quiz, setState, state)

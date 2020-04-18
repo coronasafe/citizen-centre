@@ -917,7 +917,9 @@
         {
           "title": "പേര്",
           "qno": 0,
+          "mode": "text",
           "description": "add description for question",
+          "nextQues": 1,
           "hint": "",
           "answers": []
         },
@@ -926,7 +928,6 @@
           "qno": 1,
           "description": "add description for question",
           "hint": "",
-          "mode": "text",
           "answers": [
             {
               "title": "ഫോണ്‍ നമ്പര്‍ / Phone",

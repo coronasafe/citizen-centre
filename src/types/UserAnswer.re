@@ -2,7 +2,7 @@ type value =
   | ShortText(string)
   | Number(int)
   | Date(Js.Date.t)
-  | MultiChoice(array(AnswerOption.t));
+  | MultiChoice(array(AnswerOption.t))
 
 type t = {value: option(value)};
 
@@ -15,6 +15,8 @@ let value = t => t.value;
 let makeDefault = () => {value: None};
 
 let makeShortAnswer = text => {value: Some(ShortText(text))};
+
+let makeDateAnswer = date => {value: Some(Date(date))};
 
 let addChoice = choice => {value: Some(MultiChoice(choice))};
 
