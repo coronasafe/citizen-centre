@@ -1,20 +1,39 @@
 type t = {
   title: string,
   description: string,
-  answers: array(Answer.t),
+  answerOptions: array(AnswerOption.t),
   hint: option(string),
   imageUrl: option(string),
   mode: string,
-  userAnswer: string,
   nextQues: int,
+  userAnswer: UserAnswer.t,
 };
-let make = (~title, ~description, ~imageUrl=None, ~answers=[||], ~hint, ~mode, ~userAnswer, ~nextQues) => {
-  {title, description, imageUrl, answers, hint, mode, userAnswer, nextQues};
+let make =
+    (
+      ~title,
+      ~description,
+      ~imageUrl=None,
+      ~answerOptions=[||],
+      ~hint,
+      ~mode,
+      ~nextQues,
+      ~userAnswer,
+    ) => {
+  {
+    title,
+    description,
+    imageUrl,
+    answerOptions,
+    hint,
+    mode,
+    nextQues,
+    userAnswer,
+  };
 };
 
 let title = t => t.title;
 let description = t => t.description;
-let answers = t => t.answers;
+let answerOptions = t => t.answerOptions;
 let hint = t => t.hint;
 let imageUrl = t => t.imageUrl;
 let mode = t => t.mode;
@@ -28,22 +47,28 @@ let makeArray = questions => {
          ~title=a##title,
          ~description=a##description,
          ~imageUrl=a##imageUrl |> Js.Nullable.toOption,
-         ~answers=a##answers |> Answer.makeArray,
+         ~answerOptions=a##answers |> AnswerOption.makeArray,
          ~hint=a##hint,
          ~mode=a##mode,
-         ~userAnswer=a##userAnswer,
          ~nextQues=a##nextQues,
+         ~userAnswer=UserAnswer.makeDefault(),
        )
      );
 };
 
-let updateAnswer = (userAnswer, t) => {
-  ...t,
-  userAnswer
-};
+let makeError = () => {
+    title: "There seems to be some problem",
+    description: "",
+    imageUrl: None,
+    answerOptions: [||],
+    hint: None,
+    mode: "error",
+    nextQues: -1,
+    userAnswer: UserAnswer.makeDefault(),
+  };
+
+let updateAnswer = (userAnswer, t) => {...t, userAnswer};
 
 let replace = (index, q, questions) => {
-  questions |> Array.mapi((i,question) => {
-    i==index ?  q : question
-  })
-}
+  questions |> Array.mapi((i, question) => {i == index ? q : question});
+};
